@@ -1,0 +1,384 @@
+
+.first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding:30px;
+   }
+   .option {
+       opacity: 0.5;
+       font-size:x-large;
+       font-weight: 500;
+       font-style:inherit;
+   }
+   .menu {
+    width: 50px; 
+    height:auto;
+   
+   }
+   
+   .header-img{
+       max-width: 100%;
+       height: auto;
+   
+   
+   }
+   
+   .header-content {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       color: black;
+   }
+   
+   .big-text {
+       font-size: 50px;
+        /* Adjust the size as needed */
+        color: rgb(6, 6, 134);
+        text-align: center;
+   }
+   
+   .bold-text {
+       font-weight: bold;
+   }
+   
+   .small-text {
+       font-size: 20px; /* Adjust the size as needed */
+       line-height: 1.5;
+       font-style: italic;
+       text-align: center;
+   
+   
+   }
+   
+   
+   
+   .header-content button {
+       color: #077e1b;
+       border: 2px solid #036603;
+       border-radius: 50px;
+       line-height: 1.5;
+   margin:10px;
+   
+   
+   }
+   
+   
+   
+   .header-content a {
+       color:black;
+       font-style: italic;
+       font-size: normal;
+   }
+   
+   /* 2nd part  */
+   .card-container {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+       
+   }
+   
+   .arrow{
+     position:relative;
+      width:40px;
+      height:40px;
+   }
+   /* display, relative, absolute  */
+   .card {
+     background-color: #1c0fd8;
+     border-radius: 15px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin: 0px;
+     text-align: center;
+     flex:0 0 auto;
+     min-width: 20px; 
+     max-width: 210px;
+     transition: 0.3s ease-in-out all;
+   }
+   .card1, .card3{
+     background-color: #243e55;
+   }
+   .card2{
+     background-color: #4eb290;
+   }
+   .cat-head{
+     color:white;
+     font-size: 30px;
+   }
+   .card:hover {
+     transform: scale(1.02);
+   }
+   
+   .icon {
+     font-size: 3em;
+     margin-bottom: 10px;
+     color: #4CAF50;
+   }
+   
+   h3 {
+     font-size: 1.2em;
+     margin-bottom: 10px;
+   }
+   
+   p {
+     font-size: 0.9em;
+     line-height: 1.5;
+   }
+   
+   
+    /* 3rd part */
+   .third-cild{
+     background-color: #243e55;
+   }
+   
+   /* Headers */
+   .header,
+   .header-line1 {
+     color: rgb(217, 227, 235); /* Maintains current color for headers */
+     text-align: center;
+     background-color:#243e55;
+   }
+   .btn-container{
+     display: flex;
+     justify-content: center;
+     
+   }
+   
+   /* Button */
+   .btn-line {
+     background-color: #0bbd87; 
+     border-radius: 40px;
+     padding: 20px;
+     margin: 30px auto;
+    
+   }
+   .btn-line1 {
+     
+       background-color: #0bbd87; 
+       color:white;
+       border-radius: 40px;
+       padding: 20px;
+       right: 0;
+       left: 0;
+       margin: 10px;  
+       margin-bottom: 55px;
+     
+   }
+   .bt{
+     display: flex;
+   align-items: center;
+   margin-top: 0;
+   margin-bottom: 0; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+   }
+     /* Fourth  */
+   
+   
+     /* Common styles for all cards */
+   .card-01,
+   .card-02,
+   .card-03,
+   .card-04,
+   .card-05,
+   .card-06 {
+     border-radius: 20px;
+     padding: 20px;
+     margin: 10px;
+     text-align: center;
+     opacity: 0.7;
+     transition: 0.3s ease-in-out all;
+   }
+   
+   /* Specific styles for individual cards */
+   .card-01,
+   .card-03,
+   .card-05 {
+     background-color:#ffffff;
+     color: black;
+   }
+   
+   .card-02 {
+     background-color:#4db290;
+     color: aliceblue;
+   }
+   
+   .card-04,
+   .card-06 {
+     background-color:#243e55;
+     color: aliceblue;
+   }
+   
+   /* Additional classes */
+   .fourth-one {
+     background-color: white;
+   }
+   
+   .benifits {
+     color: #4faf4c;
+     text-align: center;
+   }
+   
+   
+   
+   
+    /* Fifth part */
+    .background-img {
+   
+     background-image: url("./developing-programmer-development-website-design-a-2022-11-09-06-47-21-utc-scaled.jpg");
+     background-size: cover; /* Optional: Adjust image size */
+     background-repeat: no-repeat;
+     background-position:center; 
+   }
+   .works,.sus{
+     text-align: center;
+     color:white;
+   }
+   .Demo{
+     color: Black;
+     border: 2px solid #036603;
+     border-radius: 20px;
+     line-height: 1.0;
+     margin: 30px auto;
+      padding: 20px;
+      /* justify-content: center;
+       align-items: center;  */
+   }
+   /* Sixth */
+   
+   /*  Sixth part */
+   .sixth{
+     background-color: antiquewhite;
+     padding: 50px 50px 50px 50px;
+    
+   }
+   .ms{
+     display: flex;
+     justify-content: center;
+     color:aliceblue;
+   }
+   
+   
+   .vsv{
+     height:300px;
+     width:300px;
+   border-radius: 250px;
+    /* This will center the image horizontally */
+    
+    
+   }
+   
+   .dif{
+   display: flex;
+   justify-content: space-between;
+   }
+   .dif div{
+     width:100%
+   }
+   .top{
+     color:#049469;
+   }
+   
+   .background-img-2{
+      background-image: url("./Learning.jpeg");
+     background-size: cover; /* Optional: Adjust image size */
+     background-repeat: no-repeat;
+     background-position:center; 
+   }
+   .background-img-2{
+     padding:20px 20px 50px 20px;
+     display:flex;
+     justify-content: space-around;
+     align-items: flex-end;
+   }
+   
+   .abc{
+     color:#036603;
+     font-weight: 1000;
+   }
+   .def,.ghi,.ij{
+     color:aliceblue;
+   }
+   /* 8th part  */
+   .col{
+     color:#0ae62e;
+   }
+   .sd{
+     text-align: center;
+   }
+   .cac{
+     display: flex;
+     justify-content: space-around;
+   }
+   
+   .ca-1, .ca-2, .ca-3{
+     justify-content: center;
+   }
+   .xz {
+     display: flex;
+     justify-content: center;
+     color:black;
+   }
+   .nine{
+     background-color:#4eb290;
+     display:flex;
+     justify-content: space-around;
+     align-items:center;
+     color:aliceblue
+   }
+   .mp{
+     color:#169e73;
+     text-align: center;
+   }
+   .nl{
+    color: #9e9e9e;
+    text-align: center;
+   }
+   .np{
+     text-align: center;
+   }
+   .mn{
+     background-color: #ffffff;
+     opacity:0.8;
+     border-radius: 50px;
+     line-height: 1.0;
+     margin: 0 auto;
+     text-align: center;
+     padding:15px;
+     
+   
+   }
+   .icons{
+     display: flex;
+     text-align: center;
+     justify-content:center;
+     gap:5px;
+     
+   
+   }
+   .op{
+     background-color: rgba(0, 0, 255, 0.541);
+   
+     border-radius: 50px;
+     line-height: 1.0;
+     margin: 40px;
+     text-align: center;
+     padding:10px;
+   }
+   
+   .ten{
+     background-color:#323232;
+     color:white;
+     height:100px;
+     text-align: center;
+     
+   padding:40px;
+   }
+   
+   
+   
+     
